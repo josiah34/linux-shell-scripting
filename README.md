@@ -32,6 +32,9 @@ I have also included a Dockerfile to build a docker image for this script locall
 
 ``docker pull josiah34/get-weather:latest``
 
+To run the image and create a container:
+``docker run -it --rm --name get-weather josiah34/get-weather``
+
 
 
 ## Usage
