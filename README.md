@@ -25,6 +25,15 @@ The weather condition and temperature are extracted from the API response using 
 
 To use this script, simply download it and make it executable using `chmod +x weather.sh`. You will need to have `jq` and `curl` installed on your system. If `jq` is not installed, the script will exit with an error message. 
 
+
+## Docker
+
+I have also included a Dockerfile to build a docker image for this script locally. IMAGE NAME ``josiah34/get-weather:latest`` on Dockerhub. 
+
+``docker pull josiah34/get-weather:latest``
+
+
+
 ## Usage
 
 To run the script, use the command `./weather.sh` in the terminal and follow the prompts.

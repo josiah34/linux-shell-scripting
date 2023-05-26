@@ -59,7 +59,6 @@ read CITY
 
 
 
-
 # Get weather conditions from OpenWeatherMap API
 WEATHER=$(curl -s "http://api.openweathermap.org/data/2.5/weather?q=$CITY&units=metric&appid=$API_KEY")
 
